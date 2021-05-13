@@ -1,0 +1,4 @@
+<app-add-task  (taskEventEmitter)='appAddTask($event)'></app-add-task>
+
+
+<app-view-task *ngFor="let task of tasks" [task] = 'task' (taskEventEmitter)='appDeleteTask($event)' ></app-view-task>

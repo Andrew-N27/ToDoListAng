@@ -1,0 +1,8 @@
+<section class="example-section">
+    <span class="example-list-section">
+      <mat-checkbox class="example-margin" [checked] = "task.isCompleted" (change)="someComplete()">
+           {{task.id}}  |  {{task.taskText}}  [ {{task.isCompleted}} ] {{task.Date}}
+           <button (click) = "deleteTask()"> remove </button>
+      </mat-checkbox>
+    </span>
+  </section>

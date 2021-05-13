@@ -1,0 +1,7 @@
+<form #nTask="ngForm" (ngSubmit)="addTask(nTask)" novalidate>
+    <div class="mb-3">
+        <input class="form-control" name="textTask" ngModel required #first="ngModel">
+        <!-- <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> -->
+        <button>Add</button>
+    </div>
+</form>

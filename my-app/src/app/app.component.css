@@ -1,0 +1,14 @@
+nav a{
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    margin-right: 3px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+
+nav .active{
+    background: pink;
+    
+}
